@@ -1,9 +1,9 @@
 import streamlit as st
 
-st.title("This is my first streamlit application")
+st.title("This is DK's first streamlit application")
 st.write("Hello! Welcome to Streamlit.")
 
-city = st.selectbox("Choose your city", ["Chennai", "Delhi", "Mumbai"])
+city = st.selectbox("Choose your city", ["Chennai","Bangalore", "Hyderabad", "Pune","Delhi", "Mumbai"])
 st.write("You selected:", city)
 
 # Checkbox
